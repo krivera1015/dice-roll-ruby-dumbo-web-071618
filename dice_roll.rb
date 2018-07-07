@@ -2,6 +2,6 @@
 
 # Feel free to google "how to generate a random number in ruby"
 
-def roll(array)
-  return rand(array.length)
+def roll
+  return rand(1..6)
 end
